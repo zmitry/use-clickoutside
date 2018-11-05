@@ -6,9 +6,9 @@ React hook for outside clicks
 import \* as React from 'react'
 import useOutsideClick from 'use-clickoutside'
 
-export default function Modal({ close }) {
+export default function App({ close }) {
 const ref = useOutsideClick(close)
 
-return <div ref={ref}>{'Modal content'}</div>
+return <div ref={ref}>content</div>
 }
 ```
