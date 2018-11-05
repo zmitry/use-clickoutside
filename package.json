@@ -6,8 +6,7 @@
   "types": "./build/index",
   "license": "MIT",
   "peerDependencies": {
-    "react":"^16.7.0-alpha.0",
-    "@types/react":"16.4.18"
+    "react":"^16.7.0-alpha.0"
   },
   "devDependencies": {
     "react":"^16.7.0-alpha.0",

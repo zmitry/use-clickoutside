@@ -1,12 +1,12 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, RefObject } from "react";
 
 const onMount: Array<never> = [];
-// todo return ref type
+
 export default function useOutsideClick<T>(
   cb: (el: Event) => any,
   event: string = "click",
   ref: any = null
-): T {
+): RefObject<T> {
   ref = ref || useRef(null);
   useEffect(() => {
     function handleClickOutside(e: any) {
