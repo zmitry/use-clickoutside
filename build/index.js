@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = require("react");
 var onMount = [];
-// todo return ref type
 function useOutsideClick(cb, event, ref) {
     if (event === void 0) { event = "click"; }
     if (ref === void 0) { ref = null; }
